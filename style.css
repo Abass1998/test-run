@@ -1,0 +1,465 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Serif Display", serif;
+}
+
+.logo_container {
+  /*border: 2px solid blue;*/
+  margin: 2rem 2rem 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.image-intro img {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.main_header {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid blue;*/
+  /*background-color: blue;*/
+  background-color: hsl(256, 26%, 20%);
+  margin-top: 0rem;
+}
+.text-intro {
+  position: relative;
+  bottom: 5rem;
+  width: 100%;
+  height: auto;
+  /*border: 1px solid blue;*/
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.text1 {
+  font-size: 3rem;
+  color: white;
+}
+.text2 {
+  margin-top: 1rem;
+  color: white;
+  font-family: Montserrat;
+}
+.text3 {
+  margin-top: 3rem;
+  border: 1px solid white;
+  width: 30%;
+  margin: 0 auto;
+}
+.text3 a {
+  color: white;
+}
+
+.intro-right img {
+  float: right;
+  position: relative;
+  bottom: 6rem;
+}
+
+/*.rule {
+  width: 30%;
+  position: relative;
+  top: 12rem;
+  margin: auto;
+  margin-left: 8rem;
+}*/
+.main-container {
+  position: relative;
+  bottom: 5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /*border: 2px solid red*/
+  width: 95%;
+  margin: 0 auto;
+}
+
+.div1 {
+  margin-bottom: 3rem;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.div2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.div3 {
+  margin-bottom: 2rem;
+}
+.div4 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.div5 {
+  margin-bottom: 1rem;
+  font-family: Montserrat;
+}
+
+.div6 {
+  margin-bottom: 2rem;
+}
+.div7 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.div8 {
+  margin-bottom: 1rem;
+  font-family: Montserrat;
+}
+.div9 {
+  margin-bottom: 2rem;
+}
+.div10 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.div11 {
+  font-family: Montserrat;
+}
+.pen-container {
+  width: 95%;
+  height: 22rem;
+  /* border: 2px solid blue;*/
+  margin: 0 auto;
+  background-color: hsl(256, 26%, 20%);
+}
+
+.how-work {
+  float: right;
+}
+
+.sub-con {
+  position: relative;
+  bottom: 16rem;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /*border: 2px solid blue;*/
+  display: flex;
+  flex-direction: column;
+}
+.sub-con1 {
+  font-size: 2rem;
+  color: white;
+}
+.sub-con2 {
+  margin-top: 2rem;
+  border: 1px solid white;
+  width: 36%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.sub-con2 a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.footer-container {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid red;*/
+  margin-top: 6rem;
+
+  text-align: center;
+  background-color: hsl(0, 0%, 98%);
+}
+.logo-position {
+  position: relative;
+  bottom: 5.5rem;
+}
+.social-media {
+  /*border: 2px solid red;*/
+  position: relative;
+  bottom: 3.3rem;
+  width: 45%;
+  margin: 0 auto;
+}
+
+#sm {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+.horizontal {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.company {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+
+.rev {
+  margin-bottom: 2rem;
+}
+.help {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+.cont {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+
+.others {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+
+.linc {
+  margin-bottom: 3rem;
+}
+
+.space1 {
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/*media query*/
+@media screen and (min-width: 1200px) {
+  /*.logo_container {
+    margin: 2rem 2rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-intro img {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main_header {
+    width: 100%;
+    height: auto;
+    background-color: hsl(256, 26%, 20%);
+    margin-top: 0rem;
+  }
+  .text-intro {
+    position: relative;
+    bottom: 5rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .text1 {
+    font-size: 3rem;
+    color: white;
+  }
+  .text2 {
+    margin-top: 1rem;
+    color: white;
+    font-family: Montserrat;
+  }
+  .text3 {
+    margin-top: 3rem;
+    border: 1px solid white;
+    width: 30%;
+    margin: 0 auto;
+  }
+  .text3 a {
+    color: white;
+  }
+
+  .intro-right img {
+    float: right;
+    position: relative;
+    bottom: 6rem;
+  }
+
+  .main-container {
+    position: relative;
+    bottom: 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .div1 {
+    margin-bottom: 3rem;
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .div2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .div3 {
+    margin-bottom: 2rem;
+  }
+  .div4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .div5 {
+    margin-bottom: 1rem;
+    font-family: Montserrat;
+  }
+
+  .div6 {
+    margin-bottom: 2rem;
+  }
+  .div7 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .div8 {
+    margin-bottom: 1rem;
+    font-family: Montserrat;
+  }
+  .div9 {
+    margin-bottom: 2rem;
+  }
+  .div10 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .div11 {
+    font-family: Montserrat;
+  }
+  .pen-container {
+    width: 95%;
+    height: 22rem;
+    margin: 0 auto;
+    background-color: hsl(256, 26%, 20%);
+  }
+
+  .how-work {
+    float: right;
+  }
+
+  .sub-con {
+    position: relative;
+    bottom: 16rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-con1 {
+    font-size: 2rem;
+    color: white;
+  }
+  .sub-con2 {
+    margin-top: 2rem;
+    border: 1px solid white;
+    width: 36%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .sub-con2 a {
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .footer-container {
+    width: 100%;
+    height: auto;
+    margin-top: 6rem;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+  }
+  .logo-position {
+    position: relative;
+    bottom: 5.5rem;
+  }
+  .social-media {
+    position: relative;
+    bottom: 3.3rem;
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  #sm {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+  .horizontal {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .company {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .rev {
+    margin-bottom: 2rem;
+  }
+  .help {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .cont {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .others {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .linc {
+    margin-bottom: 3rem;
+  }
+
+  .space1 {
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }*/
+}
